@@ -1,0 +1,93 @@
+/* <!--*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center; 
+
+}*/
+.wrappers .buttons{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    float:left;
+    
+    margin: 0 3px;
+    overflow: hidden;
+background: rgba(218, 214, 214, 0.418);
+border-radius: 30px;
+cursor: pointer;
+box-shadow: 0px 0px 10px 10px (0,0,0,0.1);
+transition: all 0.3s ease-out;
+}
+.wrappers .buttons:hover{
+    width: 200px;
+}
+.wrappers .buttons .icons{
+  display: inline-block;
+  height: 40px;  
+  width: 40px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 50px;
+  transition: all 0.3s ease-out;
+}
+
+.wrappers .buttons:nth-child(1):hover  .icons{
+    background:#4267b2 ;
+}
+
+.wrappers .buttons:nth-child(2):hover  .icons{
+    background:#1da1f2 ;
+}
+.wrappers .buttons:nth-child(3):hover  .icons{
+    background:#e1306c ;
+}
+.wrappers .buttons:nth-child(4):hover  .icons{
+    background:#333 ;
+}
+.wrappers .buttons:nth-child(5):hover  .icons{
+    background:#ff0000 ;
+}
+
+.wrappers .buttons .icons i{
+font-size: 25px;
+line-height: 30px;
+transition: all 0.3s ease-out;
+}
+.wrappers .buttons:hover .icons i{
+    color: #fff;
+    }
+.wrappers .buttons span{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.wrappers .buttons:nth-child(1) span{
+    color :#4267b2 ;
+}
+
+.wrappers .buttons:nth-child(2) span{
+    color :#1da1f2 ;
+}
+.wrappers .buttons:nth-child(3) span{
+    color :#e1306c ;
+}
+.wrappers .buttons:nth-child(4) span{
+    color :#333 ;
+}
+.wrappers .buttons:nth-child(5) span{
+    color :#ff0000 ;
+} 
