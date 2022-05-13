@@ -1,6 +1,7 @@
 # Country Homes Property Site
 
 This is a sample of my project for property company
+Visit [=== https://countryhomesng.com/home.php ===] for live preview 
 
 
 ![28952001_902879069883891_2180981695669338112_n](https://user-images.githubusercontent.com/59395745/117910158-5642e400-b2d3-11eb-8570-42beecf7109d.jpg)
